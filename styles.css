@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(SS.jpg);
+    background-position:center ;
+    background-size: cover;
+}
+.navbar{
+    height: 95px;
+    width: 1500px;
+    margin: auto;
+    
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 30px;
+    font-family:algerian;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+.menu{
+    width: 40px;
+    float: left;
+    height: 70px;
+    transform: translate(-800%,200%);
+    
+    
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 20px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 900px;
+    
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid;
+    border-color: #ff7200;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 13px;
+    padding: 10px;
+    float: left;
+    color: #fff;
+    transform: translate(-20%,20%);
+
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    background:#ff7200;
+    border: 2px solid;
+    margin-top: 13px;
+    color: #fff;
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transform: translate(160%,-125%);
+
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+} 
+.content{
+    width: 1200px;
+    height: auto;
+    
+    color: #fff;
+    position: relative;
+    transform:translate(-30%,-90%)
+}
+.content .para{
+    padding-left: 3px;
+    padding-bottom: 45px;
+    font-family: arial;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 60px;
+    padding-left: 10px;
+    margin-top: 3%;
+    letter-spacing: 2px;
+    
+}
+.content span{
+    color: #ff7200;
+    font-size: 80px;
+}
+.img a{
+    color: orange;
+    text-decoration: none;
+    opacity: 1.0;
+}

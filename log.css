@@ -1,0 +1,13 @@
+div{
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width:20%;
+    height: 260px;
+    padding-left: 25px;
+}
+table{
+    border: 1px solid black;
+}

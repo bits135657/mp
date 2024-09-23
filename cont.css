@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+#na{
+    display: flex;
+    justify-content: space-around;
+}
+.nav{
+    border: 1px solid black;
+    height: 500px;
+    width: 100%;
+    margin-right: 5px;
+    
+
+
+}
+h2{
+    text-align: center;
+    
+}
+table{
+    margin-left: 45px;
+}
